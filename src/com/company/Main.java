@@ -36,7 +36,7 @@ public class Main {
             double finalNum = fNum + sNum+5;
             System.out.println(finalNum);
         }
-//guessing what operation the calculator performed instead
+//guessing what operation the calculator performed instead of the selected opperation
         Scanner question  = new Scanner(System.in);
         System.out.print("What operation did the calculator perform: Square root, Exponent, Logarithm or did it add 5?");
         String guess = question.nextLine();
